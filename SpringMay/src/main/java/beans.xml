@@ -12,7 +12,10 @@
 <context:component-scan base-package="com.teja.SpringMay"></context:component-scan>
 
 <bean id="tyre" class="com.teja.SpringMay.Tyre"> 
-
-		<property name="brand" value ="MRF"></property>
+	<!-- 	//whenever we are using a property tag  we are using a setter method in the class -->
+		<!-- <property name="brand" value ="MRF"></property> -->
+		
+		<!-- the below tag is used for constructor injection -->
+		<!-- <constructor-arg value="MRF"></constructor-arg> -->
 </bean>
-</beans>
+</beans> 

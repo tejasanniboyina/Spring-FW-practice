@@ -13,8 +13,10 @@ public class Main
     	
 //    	Vehicle obj = (Vehicle)context.getBean("bike");//getBean() returns Object of Object , so type cast it
 //    	obj.drive();
-    
-    	Tyre t = (Tyre)context.getBean("tyre");
-    	System.out.println(t);
+    	
+    	Car obj = (Car)context.getBean("car");
+    	obj.drive();
+//    	Tyre t = (Tyre)context.getBean("tyre");
+//    	System.out.println(t);
     }
 }
